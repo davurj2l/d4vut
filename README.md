@@ -1,18 +1,18 @@
 # d4vut
 Dragonbound Wings of Magic Offset Dump  25.10.2026
 
-| MoveModule.set_moveSpeed | 0x3A8120 | Movement speed setter |
-| MoveModule.set_tmpMovingSpeedScale | 0x3A8130 | Movement speed scale (0xB4) |
-| MoveModule.set_curRealPos | 0x3A8080 | Current real position |
-| MoveModule.set_curRealSpeed | 0x3A80A0 | Current real speed |
-| MoveJumpModule.OnJumpStart | 0x3A1060 | Jump start handler |
-| MoveJumpModule.JumpUp | 0x3A0420 | Jump trigger |
-| PropertyModule.set_curActualHp | 0x3287E0 | Set current HP |
-| PropertyModule.set_maxHp | 0x3ADE60 | Set maximum HP |
-| UseSkillModule.StartCastSkill | 0x3BA7C0 | Skill cast entry point |
-| UserTargetMgr.SetSkillAutoTargetId | 0x47E770 | Skill auto-target ID setter |
-| EntityManager.get_userEntityID | 0x36F110 | Get local player entity ID |
-| EntityManager.set_userEntityID | 0x36FCE0 | Set local player entity ID |
+MoveModule.set_moveSpeed | 0x3A8120 | Movement speed setter 
+MoveModule.set_tmpMovingSpeedScale | 0x3A8130 | Movement speed scale (0xB4) 
+MoveModule.set_curRealPos | 0x3A8080 | Current real position 
+MoveModule.set_curRealSpeed | 0x3A80A0 | Current real speed 
+MoveJumpModule.OnJumpStart | 0x3A1060 | Jump start handler 
+MoveJumpModule.JumpUp | 0x3A0420 | Jump trigger 
+PropertyModule.set_curActualHp | 0x3287E0 | Set current HP
+PropertyModule.set_maxHp | 0x3ADE60 | Set maximum HP 
+UseSkillModule.StartCastSkill | 0x3BA7C0 | Skill cast entry point 
+UserTargetMgr.SetSkillAutoTargetId | 0x47E770 | Skill auto-target ID setter 
+EntityManager.get_userEntityID | 0x36F110 | Get local player entity ID 
+EntityManager.set_userEntityID | 0x36FCE0 | Set local player entity ID 
 
 TypeInfo (static)
 EntityManager_TypeInfo 0x245D6F8 · UserTargetMgr_TypeInfo 0x244E990 · MoveModule_TypeInfo 0x2487400 · MoveJumpModule_TypeInfo 0x2487350 · PropertyModule_TypeInfo 0x2425E70
