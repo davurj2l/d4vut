@@ -1,0 +1,23 @@
+Dragonbound Wings of Magic 25.10.2026 Offset Dumps
+By d4vut
+
+Method RVAs (based on GameAssembly.dll)
+MoveModule.set_moveSpeed           0x3A8120
+MoveModule.set_tmpMovingSpeedScale 0x3A8130
+MoveModule.set_curRealPos          0x3A8080
+MoveModule.set_curRealSpeed        0x3A80A0
+MoveJumpModule.OnJumpStart         0x3A1060
+MoveJumpModule.JumpUp              0x3A0420
+PropertyModule.set_curActualHp     0x3287E0
+PropertyModule.set_maxHp           0x3ADE60
+UseSkillModule.StartCastSkill      0x3BA7C0
+UserTargetMgr.SetSkillAutoTargetId 0x47E770
+EntityManager.get_userEntityID     0x36F110
+EntityManager.set_userEntityID     0x36FCE0
+
+TypeInfo (static) 
+EntityManager_TypeInfo       0x245D6F8
+UserTargetMgr_TypeInfo       0x244E990
+MoveModule_TypeInfo          0x2487400
+MoveJumpModule_TypeInfo      0x2487350
+PropertyModule_TypeInfo      0x2425E70
